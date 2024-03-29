@@ -9,9 +9,12 @@ function Accessory() {
 	let router = useRouter();
 	useEffect(() => {
 		axios
-			.post('http://localhost:3000/api/product/other', {
-				category: 'coffee_accessories',
-			})
+			.post(
+				'https://bialetti-radhe2001s-projects.vercel.app/api/product/other',
+				{
+					category: 'coffee_accessories',
+				}
+			)
 			.then((data) => {
 				if (data.data.success) setProductData(data.data.message);
 				else alert('some problem occured while fetching the data');

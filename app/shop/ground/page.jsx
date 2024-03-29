@@ -9,10 +9,13 @@ function Ground() {
 	let router = useRouter();
 	useEffect(() => {
 		axios
-			.post('http://localhost:3000/api/product/other', {
-				category: 'ground_coffee',
-			})
-      .then((data) => {
+			.post(
+				'https://bialetti-radhe2001s-projects.vercel.app/api/product/other',
+				{
+					category: 'ground_coffee',
+				}
+			)
+			.then((data) => {
 				if (data.data.success) setProductData(data.data.message);
 				else alert('some problem occured while fetching the data');
 			})

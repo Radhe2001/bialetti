@@ -9,9 +9,12 @@ function Machines() {
 	let router = useRouter();
 	useEffect(() => {
 		axios
-			.post('http://localhost:3000/api/product/other', {
-				category: 'espresso_machines',
-			})
+			.post(
+				'https://bialetti-radhe2001s-projects.vercel.app/api/product/other',
+				{
+					category: 'espresso_machines',
+				}
+			)
 			.then((data) => {
 				if (data.data.success) setProductData(data.data.message);
 				else alert('some problem occured while fetching the data');
@@ -58,12 +61,12 @@ function Machines() {
 							</div>
 						);
 				  })
-				: arr.map((element,index) => {
+				: arr.map((element, index) => {
 						return (
 							<img
 								src="https://media1.tenor.com/m/guhB4PpjrmUAAAAC/loading-loading-gif.gif"
 								alt=""
-								key = {index}
+								key={index}
 								className="bg-transparent"
 							/>
 						);
