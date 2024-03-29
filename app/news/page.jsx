@@ -57,8 +57,8 @@ function News() {
 					>
 						<center>
 							<h1 className="w-[18vw]">
-								New Moka's Here is what to do to get off to a
-								good start
+								New Moka&apos;s Here is what to do to get off to
+								a good start
 							</h1>
 						</center>
 					</div>

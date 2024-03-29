@@ -208,8 +208,8 @@ export default function Home() {
 									of great transformations: these are the
 									years of Futurism, of technological
 									progress, and of social revolutions. From
-									the plane to the radio, people's daily lives
-									are about to change radically.
+									the plane to the radio, people&apos;s daily
+									lives are about to change radically.
 								</h4>
 							</div>
 						</div>
@@ -272,11 +272,11 @@ export default function Home() {
 								<h4 className="text-2xl pb-4">
 									The original Moka Express debuted in 1933,
 									and has remained virtually unchanged ever
-									since. It was Alfonso's wife who inspired
-									the iconic 8- sided shape of the Moka with
-									her silhouette: the head, the broad
-									shoulders, the narrow waist, the arm on the
-									hip and a pleated skirt ...
+									since. It was Alfonso&apos;s wife who
+									inspired the iconic 8- sided shape of the
+									Moka with her silhouette: the head, the
+									broad shoulders, the narrow waist, the arm
+									on the hip and a pleated skirt ...
 								</h4>
 								<h4 className="text-2xl">
 									And its name is in honor of the city of

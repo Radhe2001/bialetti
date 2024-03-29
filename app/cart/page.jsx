@@ -54,7 +54,7 @@ function Cart() {
 							</div>
 							{items.map((item, index) => {
 								return (
-									<div className="flex place-items-center gap-8 text-lg font-semibold border-b-2 border-[#D37676]">
+									<div key={index} className="flex place-items-center gap-8 text-lg font-semibold border-b-2 border-[#D37676]">
 										<img
 											src={item.image}
 											alt=""
