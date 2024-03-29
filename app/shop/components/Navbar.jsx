@@ -24,7 +24,7 @@ function Navbar() {
 			</Link>
 			<Link
 				className="px-5 py-1 hover:bg-[#673e2f] hover:text-xl hover:text-white rounded-xl tracking-wider hover:font-semibold"
-				href="/shop/coffee"
+				href="/shop/ground"
 			>
 				GROUND COFFEE
 			</Link>

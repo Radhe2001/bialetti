@@ -19,6 +19,10 @@ export default function RootLayout({ children }) {
 				</h1>
 			</div>
 			<Navbar />
+			<h1 className="text-4xl font-bold tracking-wider ml-[6vw] mt-4 mb-2">
+				COFFEE
+			</h1>
+			<h5 className="font-light ml-[6vw] mb-6 text-sm">A PERFECT COMBINATION OF FLAVORS AND AROMAS</h5>
 			{children}
 		</section>
 	);
