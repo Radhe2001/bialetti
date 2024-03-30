@@ -1,10 +1,10 @@
 import Link from 'next/link';
 import React from 'react';
-
+import Image from 'next/image';
 function Navbar() {
 	return (
 		<nav className="flex w-full h-24 py-2 px-10 sticky top-0 bg-white">
-			<img
+			<Image
 				src="/images/bialetti.png"
 				alt="Bialetti"
 				className="mr-auto"
@@ -25,21 +25,21 @@ function Navbar() {
 			</section>
 			<section className="flex gap-6 place-content-center place-items-center ml-auto pt-6 mr-4">
 				<Link href="/favourite">
-					<img
+					<Image
 						src="/images/favourite.png"
 						alt="Favourite"
 						className="h-6 w-8"
 					/>
 				</Link>
 				<Link href="/profile">
-					<img
+					<Image
 						src="/images/user.png"
 						alt="Profile"
 						className="h-6 w-8"
 					/>
 				</Link>
 				<Link href="/cart">
-					<img
+					<Image
 						src="/images/shopping-bag.png"
 						alt="Cart"
 						className="h-6 w-8"

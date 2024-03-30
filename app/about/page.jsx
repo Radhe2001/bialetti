@@ -1,12 +1,12 @@
 import React from 'react';
-
+import Image from 'next/image';
 function About() {
 	return (
 		<section className="">
 			<div className="bg-[#E0D5C5] pt-32">
 				<div className="flex place-content-center">
 					<div className="flex w-[75vw] place-content-center gap-12">
-						<img
+						<Image
 							src="/images/moka-express-section-01.png"
 							className="h-[40vw] w-[40vw]"
 						/>
@@ -45,7 +45,7 @@ function About() {
 								</h4>
 							</div>
 						</div>
-						<img
+						<Image
 							src="/images/moka-express-section-02.png"
 							className="h-[40vw] w-[40vw]"
 						/>
@@ -53,7 +53,7 @@ function About() {
 				</div>
 				<div className="flex place-content-center">
 					<div className="flex w-[75vw] place-content-center gap-12">
-						<img
+						<Image
 							src="/images/moka-express-section-03.png"
 							className="h-[40vw] w-[40vw]"
 						/>
@@ -97,7 +97,7 @@ function About() {
 								</h4>
 							</div>
 						</div>
-						<img
+						<Image
 							src="/images/moka-express-section-04.png"
 							className="h-[40vw] w-[40vw]"
 						/>
@@ -105,7 +105,7 @@ function About() {
 				</div>
 				<div className="flex place-content-center">
 					<div className="flex w-[75vw] place-content-center gap-12">
-						<img
+						<Image
 							src="/images/moka-express-section-05.png"
 							className="h-[40vw] w-[40vw]"
 						/>
@@ -146,7 +146,7 @@ function About() {
 								</h4>
 							</div>
 						</div>
-						<img
+						<Image
 							src="/images/moka-express-section-04.png"
 							className="h-[40vw] w-[40vw]"
 						/>

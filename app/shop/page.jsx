@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-
+import Image from 'next/image';
 function Shop() {
 	const [productData, setProductData] = useState([]);
 	let arr = [1, 2, 3];
@@ -58,7 +58,7 @@ function Shop() {
 				  })
 				: arr.map((element, index) => {
 						return (
-							<img
+							<Image
 								src="https://media1.tenor.com/m/guhB4PpjrmUAAAAC/loading-loading-gif.gif"
 								alt=""
 								key={index}

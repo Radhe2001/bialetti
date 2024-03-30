@@ -2,6 +2,7 @@
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Image from 'next/image';
 function Profile() {
 	let router = useRouter();
 	const [billingFirstName, setBillingFirstName] = useState('');
@@ -97,7 +98,7 @@ function Profile() {
 				<div className="flex place-content-center ">
 					<div className="w-[60vw]">
 						<div className="flex gap-2 place-items-center mb-4 text-xl">
-							<img src="/images/user.png" />
+							<Image src="/images/user.png" />
 							<h3 className="font-semibold">
 								Account Information
 							</h3>
@@ -159,7 +160,7 @@ function Profile() {
 				<div className="flex place-content-center mt-14 pb-12">
 					<div className="w-[60vw]">
 						<div className="flex gap-2 place-items-center mb-4 text-xl">
-							<img
+							<Image
 								src="/images/location.png"
 								className="h-8 w-8"
 							/>

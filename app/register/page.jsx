@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { redirect, useRouter } from 'next/navigation';
 import Link from 'next/link';
-
+import Image from 'next/image';
 function Register() {
 	const [firstName, setFirstName] = useState('');
 	const [middleName, setMiddleName] = useState('');
@@ -56,7 +56,7 @@ function Register() {
 			<section className="flex place-content-center gap-[2vw] ">
 				<section className="w-[32vw] border-2 border-black p-6 rounded-bl-3xl rounded-tr-3xl">
 					<div className="flex place-items-center gap-3 mb-8">
-						<img className="h-8 w-8" src="/images/user.png" />
+						<Image className="h-8 w-8" src="/images/user.png" />
 						<h3 className="text-3xl font-semibold">
 							Personal Information
 						</h3>
@@ -105,7 +105,7 @@ function Register() {
 				</section>
 				<section className="w-[32vw] border-2 border-black p-6 rounded-bl-3xl rounded-tr-3xl">
 					<div className="flex place-items-center gap-3 mb-8">
-						<img className="h-8 w-8" src="/images/user.png" />
+						<Image className="h-8 w-8" src="/images/user.png" />
 						<h3 className="text-3xl font-semibold">
 							Sign-in Information
 						</h3>

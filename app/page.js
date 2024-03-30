@@ -18,10 +18,10 @@ export default function Home() {
 			</div>
 			<div className="bg-[#439045] w-full h-[25vw] flex place-content-center">
 				<div className="flex w-[80vw] place-items-center gap-12">
-					<img
+					<Image
 						className="h-[25vw] w-[25vw] bg-cover"
 						src="/images/logo2.png"
-					></img>
+					/>
 					<div className="text-white text-2xl font-semibold text-justify ">
 						<h3 className="pb-4">
 							Moka Express is the real Italian coffee experience.
@@ -45,10 +45,10 @@ export default function Home() {
 						</h1>
 					</center>
 					<div className="flex gap-28 place-items-center">
-						<img
+						<Image
 							className="h-[20vw] w-[20vw]"
 							src="/images/moka-1-def.png"
-						></img>
+						/>
 						<h3 className="text-2xl ">
 							Start by pouring room-temperature water into the
 							Moka boiler until it reaches the safety valve.
@@ -59,16 +59,16 @@ export default function Home() {
 							Do not exceed this level or your coffee will be too
 							watery. 👍
 						</h3>
-						<img
+						<Image
 							className="h-[20vw] w-[20vw]"
 							src="/images/moka-3-def.png"
-						></img>
+						/>
 					</div>
 					<div className="flex gap-28 place-items-center">
-						<img
+						<Image
 							className="h-[20vw] w-[20vw]"
 							src="/images/moka-2-def.png"
-						></img>
+						/>
 						<h3 className="text-2xl ">
 							For the best experience, use Perfetto Moka. ❤️ Fill
 							the Moka funnel generously, without pressing down on
@@ -81,16 +81,16 @@ export default function Home() {
 							flame to low and take your time—great coffee is
 							worth the wait.
 						</h3>
-						<img
+						<Image
 							className="h-[20vw] w-[20vw]"
 							src="/images/moka-4-def.png"
-						></img>
+						/>
 					</div>
 					<div className="flex gap-28 place-items-center">
-						<img
+						<Image
 							className="h-[20vw] w-[20vw]"
 							src="/images/moka-5-def.png"
-						></img>
+						/>
 						<h3 className="text-2xl ">
 							When you hear the gurgle, it means your coffee is
 							ready. Take it off the burner ... and enjoy.
@@ -102,7 +102,7 @@ export default function Home() {
 				<div className="flex bg-[#076342] place-content-center">
 					<div className="flex w-[65vw] py-14 place-items-center gap-16 text-white">
 						<div className="grid">
-							<img
+							<Image
 								src="/images/user-1.png"
 								className="h-[17vw] w-[17vw] pb-4"
 							/>
@@ -142,7 +142,7 @@ export default function Home() {
 							</h4>
 						</div>
 						<div className="grid">
-							<img
+							<Image
 								src="/images/user-2.png"
 								className="h-[17vw] w-[17vw] pb-4"
 							/>
@@ -157,7 +157,7 @@ export default function Home() {
 				<div className="flex bg-[#B23D3D] place-content-center">
 					<div className="flex w-[65vw] py-14 place-items-center gap-16 text-white">
 						<div className="grid">
-							<img
+							<Image
 								src="/images/user-3.png"
 								className="h-[17vw] w-[17vw] pb-4"
 							/>
@@ -194,7 +194,7 @@ export default function Home() {
 			<div className="bg-[#E0D5C5] pt-32">
 				<div className="flex place-content-center">
 					<div className="flex w-[75vw] place-content-center gap-12">
-						<img
+						<Image
 							src="/images/moka-express-section-01.png"
 							className="h-[40vw] w-[40vw]"
 						/>
@@ -233,7 +233,7 @@ export default function Home() {
 								</h4>
 							</div>
 						</div>
-						<img
+						<Image
 							src="/images/moka-express-section-02.png"
 							className="h-[40vw] w-[40vw]"
 						/>
@@ -241,7 +241,7 @@ export default function Home() {
 				</div>
 				<div className="flex place-content-center">
 					<div className="flex w-[75vw] place-content-center gap-12">
-						<img
+						<Image
 							src="/images/moka-express-section-03.png"
 							className="h-[40vw] w-[40vw]"
 						/>
@@ -285,7 +285,7 @@ export default function Home() {
 								</h4>
 							</div>
 						</div>
-						<img
+						<Image
 							src="/images/moka-express-section-04.png"
 							className="h-[40vw] w-[40vw]"
 						/>
@@ -293,7 +293,7 @@ export default function Home() {
 				</div>
 				<div className="flex place-content-center">
 					<div className="flex w-[75vw] place-content-center gap-12">
-						<img
+						<Image
 							src="/images/moka-express-section-05.png"
 							className="h-[40vw] w-[40vw]"
 						/>
@@ -335,7 +335,7 @@ export default function Home() {
 								</h4>
 							</div>
 						</div>
-						<img
+						<Image
 							src="/images/moka-express-section-04.png"
 							className="h-[40vw] w-[40vw]"
 						/>

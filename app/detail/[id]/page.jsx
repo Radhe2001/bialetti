@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-
+import Image from 'next/image';
 function Detail({ params: { id } }) {
 	const [productData, setProductData] = useState({});
 	const [count, setCount] = useState(1);
@@ -82,7 +82,7 @@ function Detail({ params: { id } }) {
 						</div>
 
 						<section className="flex gap-20 place-items-center">
-							<img
+							<Image
 								src={productData.image}
 								alt=""
 								className="w-[40%]"
