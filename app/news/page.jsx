@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+
 function News() {
 	return (
 		<>
@@ -23,18 +23,18 @@ function News() {
 							</div>
 						</div>
 						<div className="w-[20vw]">
-							<Image
+							<img
 								src="/images/news-image-2.jpeg"
 								className="h-[13vw] w-[21vw]"
-							/>
+							></img>
 							<h3 className="font-light mb-8">
 								A Moka pot on induction hob when tradition is
 								renewed
 							</h3>
-							<Image
+							<img
 								src="/images/news-image-3.jpg"
 								className="h-[13vw] w-[21vw]"
-							/>
+							></img>
 							<h3 className="font-light">
 								Welcome the party. The new Deco Glamour
 								Collection
@@ -91,10 +91,10 @@ function News() {
 				</div>
 				<div className="flex gap-20 place-content-center pb-20">
 					<div className=" w-[20vw]">
-						<Image
+						<img
 							className="h-[20vw] w-[20vw] mb-4"
 							src="/images/news-image-4.jpg"
-						/>
+						></img>
 						<h3 className="">
 							A tasty custom and a bonefide ritual Starting the
 							day with a coffee, as part of a healthy and balanced
@@ -102,10 +102,10 @@ function News() {
 						</h3>
 					</div>
 					<div className="flex place-items-center gap-10">
-						<Image
+						<img
 							className="h-[25vw] w-[40vw]"
 							src="/images/news-image-8.jpeg"
-						/>
+						></img>
 						<div className="w-[22vw]">
 							<h3 className=" text-2xl font-bold tracking-wide pb-4">
 								HOW THE MOKA WORKS LIFT THE LID AND DISCOVER ALL

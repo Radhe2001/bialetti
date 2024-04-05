@@ -2,7 +2,7 @@
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
+
 function Detail({ params: { id } }) {
 	const [productData, setProductData] = useState({});
 	const [count, setCount] = useState(1);
@@ -10,7 +10,9 @@ function Detail({ params: { id } }) {
 	const [favourite, setFavourite] = useState(false);
 	useEffect(() => {
 		axios
-			.post('http://localhost:3000/api/detail', { id: id })
+			.post('https://bialetti-backend-kfua.onrender.com/api/detail', {
+				id: id,
+			})
 			.then((data) => {
 				if (data.data.success) setProductData(data.data.message);
 				else alert('unable to fetch the data');
@@ -82,7 +84,7 @@ function Detail({ params: { id } }) {
 						</div>
 
 						<section className="flex gap-20 place-items-center">
-							<Image
+							<img
 								src={productData.image}
 								alt=""
 								className="w-[40%]"

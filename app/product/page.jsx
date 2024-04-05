@@ -11,7 +11,7 @@ function Product() {
 	function handleSubmit(event) {
 		event.preventDefault();
 		axios
-			.post('http://localhost:3000/api/products', {
+			.post('https://bialetti-backend-kfua.onrender.com/api/products', {
 				title: title,
 				category: category,
 				image: image,

@@ -2,7 +2,6 @@
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Image from 'next/image';
 function Profile() {
 	let router = useRouter();
 	const [billingFirstName, setBillingFirstName] = useState('');
@@ -31,9 +30,12 @@ function Profile() {
 		if (result) {
 			result = JSON.parse(result);
 			axios
-				.post('http://localhost:3000/api/profile', {
-					token: result.token,
-				})
+				.post(
+					'https://bialetti-backend-kfua.onrender.com/api/profile',
+					{
+						token: result.token,
+					}
+				)
 				.then((data) => {
 					if (data.data.success) {
 						setUserData(data.data.data);
@@ -98,7 +100,7 @@ function Profile() {
 				<div className="flex place-content-center ">
 					<div className="w-[60vw]">
 						<div className="flex gap-2 place-items-center mb-4 text-xl">
-							<Image src="/images/user.png" />
+							<img src="/images/user.png" />
 							<h3 className="font-semibold">
 								Account Information
 							</h3>
@@ -160,7 +162,7 @@ function Profile() {
 				<div className="flex place-content-center mt-14 pb-12">
 					<div className="w-[60vw]">
 						<div className="flex gap-2 place-items-center mb-4 text-xl">
-							<Image
+							<img
 								src="/images/location.png"
 								className="h-8 w-8"
 							/>

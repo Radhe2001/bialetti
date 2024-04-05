@@ -2,14 +2,17 @@
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
+
 function Shop() {
 	const [productData, setProductData] = useState([]);
 	let arr = [1, 2, 3];
 	let router = useRouter();
 	useEffect(() => {
 		axios
-			.post('http://localhost:3000/api/product/all', { category: 'all' })
+			.post(
+				'https://bialetti-backend-kfua.onrender.com/api/product/all',
+				{ category: 'all' }
+			)
 			.then((data) => {
 				if (data.data.success) setProductData(data.data.message);
 				else alert('some problem occured while fetching the data');
@@ -58,7 +61,7 @@ function Shop() {
 				  })
 				: arr.map((element, index) => {
 						return (
-							<Image
+							<img
 								src="https://media1.tenor.com/m/guhB4PpjrmUAAAAC/loading-loading-gif.gif"
 								alt=""
 								key={index}

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import Image from 'next/image';
+
 function Footer() {
 	return (
 		<>
@@ -10,7 +10,7 @@ function Footer() {
 						<section className="grid grid-cols-3 mx-24">
 							<div className="grid px-16">
 								<div className="flex gap-4 mb-6 place-items-center">
-									<Image
+									<img
 										src="/images/logo.webp"
 										alt="Logo"
 										className=" h-24 w-12"
@@ -71,7 +71,7 @@ function Footer() {
 					<div className="ml-auto flex gap-2">
 						<Link href="https://www.facebook.com/Bialetti/">
 							<div className=" border-2 rounded-[50%] border-[#7a7676] hover:bg-[#6d4848]">
-								<Image
+								<img
 									src="/images/facebook.png"
 									alt="Favourite"
 									className="h-6 w-8"
@@ -80,7 +80,7 @@ function Footer() {
 						</Link>
 						<Link href="https://www.instagram.com/bialetti/">
 							<div className="border-2 rounded-[50%] border-[#7a7676] hover:bg-[#6d4848]">
-								<Image
+								<img
 									src="/images/instagram.png"
 									alt="Favourite"
 									className="h-6 w-8"

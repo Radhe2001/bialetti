@@ -11,7 +11,7 @@ function Login() {
 	const handleSubmit = (event) => {
 		event.preventDefault();
 		axios
-			.post('http://localhost:3000/api/login', {
+			.post('https://bialetti-backend-kfua.onrender.com/api/login', {
 				email: email,
 				password: password,
 			})

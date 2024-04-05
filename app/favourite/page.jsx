@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
+
 function Favourite() {
 	const [items, setItems] = useState([]);
 	const [total, setTotal] = useState();
@@ -58,7 +58,7 @@ function Favourite() {
 										key={index}
 										className="flex place-items-center gap-8 text-lg font-semibold border-b-2 border-[#D37676]"
 									>
-										<Image
+										<img
 											src={item.image}
 											alt=""
 											className="h-[8vw] w-[8vw]"

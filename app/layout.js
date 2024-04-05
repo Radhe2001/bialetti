@@ -2,10 +2,8 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import '../db/config';
 import './components/NullComponent';
 import NullComponent from './components/NullComponent';
-import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,7 +17,7 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			<body className={inter.className}>
 				<div className="flex place-content-center place-items-center gap-3 w-full bg-black text-white  ">
-					<Image
+					<img
 						src="/images/ship.png"
 						alt="Shipping"
 						className="h-8 w-8"
